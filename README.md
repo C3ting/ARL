@@ -247,3 +247,4 @@ chmod +x setup-arl.sh
 
 目前ARL仅仅只是完成了对资产的部分维度的发现和收集，自动发现过程中难免出现覆盖度不全、不精准、不合理等缺陷的地方还请反馈至我们。  
 
+![image-20240513193927086](http://cloud.c3ting.com//c3ting/image-20240513193927086.png?watermark/2/text/QzN0aW5n/fontsize/400)
