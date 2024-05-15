@@ -69,10 +69,10 @@ FOFA:
 #*** 监控任务消息推送配置 ****
 #监控任务消息推送配置，支持钉钉，飞书，企业微信，邮件
 #如果不需要推送，可以将所有配置项都留空
-#文档：https://tophanttechnology.github.io/ARL-doc/config_option/?h=%E6%B6%88%E6%81%AF#_1
+#文档：https://C3ting.github.io/ARL-doc/config_option/?h=%E6%B6%88%E6%81%AF#_1
 #钉钉消息推送配置
 #钉钉添加机器人，请查看
-#https://github.com/TophantTechnology/ARL/wiki/ARL%202.3%20%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E
+#https://github.com/C3ting/ARL/wiki/ARL%202.3%20%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E
 DINGDING:
   SECRET: ""
   ACCESS_TOKEN: ""

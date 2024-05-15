@@ -36,7 +36,7 @@ systemctl start docker
 cd /opt/
 if [ ! -d ARL ]; then
   echo "git clone ARL proj"
-  git clone https://github.com/TophantTechnology/ARL
+  git clone https://github.com/C3ting/ARL
 fi
 cd ARL/docker
 

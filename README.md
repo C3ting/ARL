@@ -104,7 +104,7 @@ A：因为使用的是ARL的指纹文件导入接口，此接口支持去重功�
 10. 站点变化监控
 11. 文件泄漏等风险检测
 12. nuclei PoC 调用
-13. [WebInfoHunter](https://tophanttechnology.github.io/ARL-doc/function_desc/web_info_hunter/) 调用和监控
+13. [WebInfoHunter](https://C3ting.github.io/ARL-doc/function_desc/web_info_hunter/) 调用和监控
 
 ### 系统要求
 
@@ -117,7 +117,7 @@ A：因为使用的是ARL的指纹文件导入接口，此接口支持去重功�
 ```
 cd /opt/
 mkdir docker_arl
-wget -O docker_arl/docker.zip https://github.com/TophantTechnology/ARL/releases/download/v2.6.2/docker.zip
+wget -O docker_arl/docker.zip https://github.com/C3ting/ARL/releases/download/v2.6.2/docker.zip
 cd docker_arl
 unzip -o docker.zip
 docker volume create arl_db
@@ -128,7 +128,7 @@ docker compose up -d
 
 Ubuntu 下可以直接执行 `apt-get install docker.io docker-compose -y` 安装相关依赖
 
-详细说明可以参考: [Docker 环境安装 ARL](https://tophanttechnology.github.io/ARL-doc/system_install/)
+详细说明可以参考: [Docker 环境安装 ARL](https://C3ting.github.io/ARL-doc/system_install/)
 
 ### 截图
 
@@ -147,18 +147,18 @@ Ubuntu 下可以直接执行 `apt-get install docker.io docker-compose -y` 安�
 
 5. 资产监控页面
 ![资产监控页面](./image/monitor.png)
-详细说明可以参考：[资产分组和监控功能使用说明](https://github.com/TophantTechnology/ARL/wiki/%E8%B5%84%E4%BA%A7%E5%88%86%E7%BB%84%E5%92%8C%E7%9B%91%E6%8E%A7%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+详细说明可以参考：[资产分组和监控功能使用说明](https://github.com/C3ting/ARL/wiki/%E8%B5%84%E4%BA%A7%E5%88%86%E7%BB%84%E5%92%8C%E7%9B%91%E6%8E%A7%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 6. 策略页面
 ![策略配置页面](./image/policy.png)
 
 7. 筛选站点进行任务下发
 ![筛选站点进行任务下发](./image/scan.png)
-详细说明可以参考： [2.3-新添加功能详细说明](https://github.com/TophantTechnology/ARL/wiki/ARL-2.3-%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E)
+详细说明可以参考： [2.3-新添加功能详细说明](https://github.com/C3ting/ARL/wiki/ARL-2.3-%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E)
 
 8. 计划任务
 ![计划任务](./image/task_scheduler.png)
-详细说明可以参考： [2.4.1-新添加功能详细说明](https://github.com/TophantTechnology/ARL/wiki/ARL-2.4.1-%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E)
+详细说明可以参考： [2.4.1-新添加功能详细说明](https://github.com/C3ting/ARL/wiki/ARL-2.4.1-%E6%96%B0%E6%B7%BB%E5%8A%A0%E5%8A%9F%E8%83%BD%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E)
 
 9. GitHub 监控任务
 ![GitHub 监控任务](./image/github_monitor.png)
@@ -233,7 +233,7 @@ db.user.insert({ username: 'admin',  password: hex_md5('arlsalt!@#'+'admin123') 
 如果在其他目录可以创建软连接，且安装了四个服务分别为`arl-web`, `arl-worker`, `arl-worker-github`, `arl-scheduler`
 
 ```
-wget https://raw.githubusercontent.com/TophantTechnology/ARL/master/misc/setup-arl.sh
+wget https://raw.githubusercontent.com/C3ting/ARL/master/misc/setup-arl.sh
 chmod +x setup-arl.sh
 ./setup-arl.sh
 ```
@@ -241,10 +241,10 @@ chmod +x setup-arl.sh
 
 ### FAQ
 
-请访问如下链接[FAQ](https://tophanttechnology.github.io/ARL-doc/faq/)
+请访问如下链接[FAQ](https://C3ting.github.io/ARL-doc/faq/)
 
 ### 写在最后
 
 目前ARL仅仅只是完成了对资产的部分维度的发现和收集，自动发现过程中难免出现覆盖度不全、不精准、不合理等缺陷的地方还请反馈至我们。  
 
-![image-20240513193927086](http://cloud.c3ting.com//c3ting/image-20240513193927086.png?watermark/2/text/QzN0aW5n/fontsize/400)
+![公众号](./image/logo.jpg)

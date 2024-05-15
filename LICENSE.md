@@ -10,4 +10,4 @@ MIT许可证
 
 如果您在自己的项目中使用本软件，请在您的项目介绍页中注明本项目 Github 仓库的地址。
 
-同意 https://github.com/TophantTechnology/ARL/blob/master/Disclaimer.md 免责声明
+同意 https://github.com/C3ting/ARL/blob/master/Disclaimer.md 免责声明
