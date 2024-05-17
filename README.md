@@ -8,6 +8,22 @@
 
 **[TophantTechnology/ARL](https://github.com/TophantTechnology/ARL)**
 
+# 一键安装脚本（修复重置版）：
+
+## 使用说明
+
+1、此脚本仅适配Centos7，不支持ubantu，debian，在美国 Centos7.6纯原系统下测试多次皆无问题。
+2、如果安装成功后无法访问，请尝试关闭vps安全组或者Centos防火墙。
+3、遇见报错大概率是网络或者yum源或者pip源问题，尽量使用外网/香港vps安装，棉花糖博客有一些vps厂商推荐：mhtsec.com
+
+## 用法:
+
+```
+wget https://github.com/C3ting/ARL/releases/download/install/arl-install
+chmod +x arl-install
+./arl-install
+
+```
 # 灯塔工具推荐：
 
 ### ARL-Finger-ADD-Pro
