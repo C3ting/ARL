@@ -126,32 +126,13 @@ A：因为使用的是ARL的指纹文件导入接口，此接口支持去重功�
 
 ### 系统要求
 
-目前暂不支持Windows，初次体验可采用Docker方式运行，长期使用建议采用源码安装方式运行。系统配置建议：CPU:4线程 内存:8G 带宽:10M。  
+建议采用Centos7.6 一键安装方式运行。系统配置建议：CPU:4线程 内存:8G 带宽:10M。  
 由于自动资产发现过程中会有大量的的发包，建议采用云服务器可以带来更好的体验。
-
-### Docker 启动
-
-
-```
-cd /opt/
-mkdir docker_arl
-wget -O docker_arl/docker.zip https://github.com/C3ting/ARL/releases/download/v2.6.2/docker.zip
-cd docker_arl
-unzip -o docker.zip
-docker volume create arl_db
-docker compose pull
-docker compose up -d
-```
-
-
-Ubuntu 下可以直接执行 `apt-get install docker.io docker-compose -y` 安装相关依赖
-
-详细说明可以参考: [Docker 环境安装 ARL](https://C3ting.github.io/ARL-doc/system_install/)
 
 ### 截图
 
 1. 登录页面     
-默认端口5003 (https), 默认用户名密码admin/arlpass  
+默认端口5003 (https), 默认用户名密码admin/admin123
 ![登录页面](./image/login.png)
 
 2. 任务页面
